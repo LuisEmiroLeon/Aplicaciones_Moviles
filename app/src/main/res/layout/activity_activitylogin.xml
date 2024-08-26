@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo_degradado" >
+
+    <ImageView
+        android:id="@+id/ecorecicla"
+        android:layout_width="314dp"
+        android:layout_height="281dp"
+        app:srcCompat="@drawable/ecorecicla"
+        android:contentDescription="Ecorecicla1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="EcoRecicla"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="208dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="211dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp"/>
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#69AF42"
+        android:text="Iniciar Sesión"
+        android:textColorLink="#548433"/>
+
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#69AF42"
+        android:text="Registrarse"
+        android:textColorLink="#548433" />
+
+    </LinearLayout>
